@@ -40,6 +40,6 @@ func IsValid(data interface{})[]IsValidCase {
 	return fields
 }
 
-func SayHello(name string) string{
-	return "hello " + name
+func SayHello(name string,age string) string{
+	return "hello " + name + age
 }
